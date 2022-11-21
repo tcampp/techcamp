@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Camp</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="shortcut icon" href="/Assets/Content/Favicon/fav.ico" type="image/x-ico">
+</head>
+<header>
+<div class="navbar">
+    <span><a href="/Html/Home.html"><img class="logo" src="Assets/Content/Logo/tc-non back.png" alt=" Technology Camp Logo's"></a></span>
+    <div class="name"><a style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"href="/Html/Home.html"><b>Technology Camp</b></a></div>
+    <span>
+        <a class="us" href="About us.html">About Us</a>
+        <a class="cat" href="#">Categories</a>
+        <a class="cntct" href="Contact us.html">Contact Us</a>
+    </span>
+</div>
+</header>
+<body>
+<div>
+    <h1 class="h1"><b> stay up to <br>date</b></h1>
+</div>
+<div class="shadow"></div>
+<div>
+    <img class="head-img" src="Assets/Img.jpg/rodion-kutsaev-0VGG7cqTwCo-unsplash.jpg" alt=" Phone photo">
+</div>
+
+
+<div>
+    <a href="https://www.samsung.com/us/smartphones/" target="_blank"><p class="p1"> learn more</p></a>
+</div>
+
+
+<div>
+    <a href="#"><img class="firstborder" src="Assets/Content/Border/neon.png" alt="border">
+    <img class="car" src="Assets/Img.jpg/pexels-mike-b-120049.jpg" alt="Car photo"></a>
+</div>
+   <a href="#">
+    <h2 class="carnews">Car News</h2>
+    <p class="carcap">checkout the lastest news of the cars and read about them.</p>
+   </a>
+<div>
+    <a href="#">
+        <img class="secondb2" src="Assets/Content/Border/neon.png" alt="border">
+        <img class="laptop" src="Assets/Img.jpg/839fbef2-55ae-49eb-a29e-df8db4970d3a.jpg" alt="Laptop image">
+     </a>
+</div>
+<a href="#">
+    <h2 class="laptopnews">Lap-Top News</h2>
+    <p class="laptopcap">checkout the lastest news of the laptop and read about them.</p>
+</a>
+<div>
+    <a href="#">
+        <img class="thirdb3" src="Assets/Content/Border/neon.png" alt="border">
+        <img class="mobile" src="Assets/Img.jpg/iphone-g3401df476_1920.jpg" alt="">
+     </a>
+</div>
+<a href="#">
+    <h2 class="mobilenews">Mobile &<br>Tablet News</h2>
+    <p class="mobilecap">checkout the lastest news of the mobile and tablets and read about them.</p>
+</a>
+<hr class="hr">
+<!--
+<svg id="svgmask22">
+    <mask id="svgmask2">
+      <polygon fill="#ffffff" points="0,900 800,800 990,450 950,10 260,10"></polygon>
+    </mask>
+    <image href="/Assets/Img.jpg/unnamed (1).jpg" mask="url(#svgmask2)"></image>
+    <--xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img_5terre.jpg" mask="url(#svgmask2)"-->
+ <!-- </svg>-->
+<!--
+<button oneclick="document.getElementById('myimg').src='/Assets/Img.jpg/on.gif'">Turn on the light</button>
+<img id="myimg" src="/Assets/Img.jpg/off.gif" alt="">
+<button oneclick="document.getElementById('myimg').src='/Assets/Img.jpg/off.gif'">Turn of the light</button>
+-->
+</body>
+<!--set the dark purple shadow circle and blend it back to the phone image.
+    learn about how can mix two color together and make them transparent.
+<div><img class="prpl" src="/Assets/Img.jpg/prpl.png" alt=""></div>
+-->
+<!--
+
+<style>
+    #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    
+    #myImg:hover {opacity: 0.7;}
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (image) */
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+    
+    /* Caption of Modal Image */
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+    
+    /* Add Animation */
+    .modal-content, #caption {  
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+    
+    @keyframes zoom {
+      from {transform: scale(0.1)} 
+      to {transform: scale(1)}
+    }
+    
+    /* The Close Button */
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+      .modal-content {
+        width: 100%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h2>Image Modal</h2>
+    
+    <p>Here, we use CSS to create a modal (dialog box) that is hidden by default.</p>
+    <p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
+    <p>Don't worry if you do not understand the code right away. When you are done with CSS, go to our JavaScript Tutorial to learn more.</p>
+    
+    <img id="myImg" src="/Assets/Img.jpg/uriel-soberanes-MxVkWPiJALs-unsplash.jpg" alt="Northern Lights, Norway" width="300" height="200">
+    -->
+    <!-- The Modal --><!--
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>-->
+</html>
